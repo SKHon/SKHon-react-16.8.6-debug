@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+const Element = function () {
+  return <div>hello world !!!</div>
+} 
+const Element2 = <div>hello world !!!</div>
+ReactDOM.render(Element2 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

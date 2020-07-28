@@ -6,7 +6,8 @@ class App extends Component {
   render() {
     return (
       <div>
-          <HooksCom />
+          {/* <HooksCom /> */}
+          hello world
       </div>
     );
   }
